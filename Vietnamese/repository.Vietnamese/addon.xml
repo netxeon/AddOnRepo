@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.Vietnamese" name="Vietnamese" version="1.0.0" provider-name="netxeon-country">
 	<extension point="xbmc.addon.repository">
-		<info compressed="false">https://raw.githubusercontent.com/tustxk/AddOnRepo/master/Vietnamese/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/tustxk/AddOnRepo/master/Vietnamese/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/tustxk/AddOnRepo/master/Vietnamese</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Vietnamese/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Vietnamese/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Vietnamese</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>XBMC Addons for Vietnamese Only</summary>

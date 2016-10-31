@@ -303,9 +303,9 @@
 
 <addon id="repository.Brazilian" name="Brazilian" version="1.0.0" provider-name="netxeon-country">
 	<extension point="xbmc.addon.repository">
-		<info compressed="false">https://raw.githubusercontent.com/tustxk/AddOnRepo/master/Brazilian/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/tustxk/AddOnRepo/master/Brazilian/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/tustxk/AddOnRepo/master/Brazilian</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Brazilian/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Brazilian/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Brazilian</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>XBMC Addons for Brazilian Only</summary>
