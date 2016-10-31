@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon
+  id="plugin.video.SportsDevil"
+  version="2015.08.22"
+  name="SportsDevil"
+  provider-name="MaxMustermann, Al101, Hubbab3, Sattekop">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.requests" />
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos of different sports streaming sites</summary>
+    <description>Play videos of different sports streaming sites</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Netxeon" name="Netxeon" version="1.0.0" provider-name="netxeon-function">
+	<extension point="xbmc.addon.repository">
+		<info compressed="false">https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Netxeon/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Netxeon/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Netxeon</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>XBMC Addons for Netxeon Only</summary>
+		<description>There is no description.</description>
+		<disclaimer>The owners and submitters to tis repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
