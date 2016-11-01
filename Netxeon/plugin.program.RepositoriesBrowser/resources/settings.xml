@@ -1,0 +1,19 @@
+<settings>
+	<category label="General">
+		<setting visible="true"  type="bool" default="false" id="show_graphics_behind_list" label="Show Graphics behind List" />
+		<setting visible="true"  type="bool" default="false" id="show_disabled" label="Show Disabled Repositories" />
+		<setting visible="true"  type="bool" default="false" id="repofix_github" label="AutoFix Github Repositories" />
+		<setting visible="true"  type="bool" default="false" id="pythonfix" label="AutoFix Python Version (Eden,Frodo,Gotham)" />
+		<setting visible="false" type="bool" default="false" id="debug-enable" 	label="Enable Debugging to File" />
+		<setting visible="false" type="bool" default="false" id="debug-show" 		label="Enable Debugging to Notice(s)" />
+	</category>
+	<category label="Repositories">
+		<setting visible="true" type="bool" default="false" id="show_repo_xbmchub" 		label="XBMCHUB.com" />
+		<setting visible="true" type="bool" default="false" id="show_repo_superrepo" 	label="SuperRepo.org" />
+		<setting visible="true" type="bool" default="false" id="show_repo_xbmc" 			label="XBMC.org" />
+		<setting visible="true" type="bool" default="false" id="show_repo_thehighway"	label="TheHighway" />
+		<setting visible="true" type="bool" default="false" id="show_repo_divingmule"	label="Divingmule" />
+		<setting visible="true" type="bool" default="false" id="show_repo_coremodule_betas"	label="Eldorado's CoreModule Betas" />
+		<setting visible="true" type="bool" default="false" id="show_repo_eldorado"	label="Eldorado's Addons" />
+	</category>
+</settings>
