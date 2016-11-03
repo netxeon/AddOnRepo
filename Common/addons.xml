@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.nba"
-       name="NBA League Pass"
-       version="0.8.4"
-       provider-name="maxgalbu, ptsampoukas, robla">
-  <requires>
-    <import addon="xbmc.python" version="2.20.0"/>
-    <import addon="script.common.plugin.cache" version="0.9.1"/>
-    <import addon="script.module.pytz" version="2014.2"/>
-    <import addon="script.module.six" version="1.9.0"/>
-    <import addon="script.module.dateutil" version="2.4.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="leaguepass.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Watch NBA League Pass games.</summary>
-    <description>Features: Live, archive and condensed games for the current NBA season, highlights, top plays and other videos, previous seasons starting from 2012/2013. Fanart and thumbnails. Requires a subscription to the NBA International League Pass.</description>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=124716</forum>
-    <website>https://github.com/maxgalbu/xbmc.plugin.video.nba</website>
-    <email></email>
-    <source>https://github.com/maxgalbu/xbmc.plugin.video.nba</source>
-  </extension>
-</addon>
-
 <addon id="repository.Common" name="Common" version="1.0.0" provider-name="netxeon-function">
 	<extension point="xbmc.addon.repository">
 		<info compressed="false">https://raw.githubusercontent.com/netxeon/AddOnRepo/master/Common/addons.xml</info>
@@ -38,70 +12,5 @@
 		<disclaimer>The owners and submitters to tis repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="repository.SportsDevil" name="SportsDevil repository" version="1.0.1" provider-name="Al101">
-	<extension point="xbmc.addon.repository" name="SportsDevil add-on repository">
-		<info compressed="false">http://raw.github.com/al101/repository.SportsDevil/master/addons.xml</info>
-		<checksum>http://raw.github.com/al101/repository.SportsDevil/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/al101/repository.SportsDevil/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Unofficial SportsDevil add-on</summary>
-		<description>SportsDevil created by MaxMustermann maintained by [COLOR blue]XBMCHUB.COM[/COLOR] community (enen92, jorges4lu2, alex35...)</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.module.simplejson"
-       name="simplejson"
-       version="3.3.0"
-       provider-name="Martijn">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <language></language>
-    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
-    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
-    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
-    <license>MIT License, Academic Free License v. 2.1</license>
-    <website>https://pypi.python.org/pypi/simplejson/</website>
-    <source>https://pypi.python.org/pypi/simplejson/</source>
-  </extension>
-</addon>
-
-<addon id="script.navi-x"
-       name="Navi-X"
-       version="4.0"
-       provider-name="Team Navi-X and TVADDONS.ag">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.urlresolver"  />
-    <import addon="script.module.t0mm0.common"  />
-    <import addon="script.module.addon.common" optional="false" />
-    <import addon="repository.xbmchub" optional="true" />
-    <import addon="plugin.video.youtube" optional="false" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py" >
-    <provides>executable video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion>28764</minversion>
-    <summary>Media Browser Addon for Kodi</summary>
-    <description>Navi-X is the oldest and most trusted add-on for Kodi, used by millions of people worldwide. You'll find everything from live television to your favourite movies and television shows, easily accessible.</description>
-    <disclaimer>http://www.navixtreme.com/terms/</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/38-NAVI-X-MEDIA-BROWSER-FOR-KODI</forum>
-    <website>http://www.navixtreme.com/</website>
-    <source></source>
-    <email></email>
-  </extension>
 </addon>
 </addons>
